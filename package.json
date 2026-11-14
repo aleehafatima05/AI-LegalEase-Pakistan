@@ -1,0 +1,16 @@
+{
+  "name": "legalease-pakistan",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler pages dev public --d1=DB",
+    "deploy": "wrangler pages deploy public --project-name legalease-pakistan",
+    "db:local": "wrangler d1 execute legalease-db --local --file=db/schema.sql",
+    "db:seed:local": "wrangler d1 execute legalease-db --local --file=db/seed.sql",
+    "db:remote": "wrangler d1 execute legalease-db --remote --file=db/schema.sql",
+    "db:seed:remote": "wrangler d1 execute legalease-db --remote --file=db/seed.sql"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}

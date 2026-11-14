@@ -1,0 +1,8 @@
+-- EXAMPLE ONLY. Do not run as-is or claim this is a verified law.
+-- 1) Find the authoritative official text, latest amendments and effective date.
+-- 2) Have a qualified reviewer record jurisdiction, precise section and reviewed date.
+-- 3) Insert source with status='verified' only after official-source verification.
+-- 4) Insert legal_entries with status='verified' only after substantive legal review.
+-- Example template:
+-- INSERT INTO legal_entries(source_id,title,topic,audience,jurisdiction,section_ref,summary,effective_date,status)
+-- VALUES(1,'REVIEWED LAW TITLE','students','students','PK-FED','Article/Section X','REVIEWED SUMMARY','YYYY-MM-DD','verified');
